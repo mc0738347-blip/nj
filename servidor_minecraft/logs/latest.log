@@ -1,0 +1,327 @@
+[18Oct2025 16:02:53.448] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18Oct2025 16:02:53.452] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[18Oct2025 16:02:54.232] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18Oct2025 16:02:54.284] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/nj/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[18Oct2025 16:02:54.534] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/nj/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[18Oct2025 16:02:54.537] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/nj/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Oct2025 16:02:54.538] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/nj/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Oct2025 16:02:54.539] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/nj/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Oct2025 16:02:54.717] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[18Oct2025 16:02:56.407] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Oct2025 16:02:56.460] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[18Oct2025 16:02:56.565] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[18Oct2025 16:02:56.724] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 65 options available, 0 override(s) found
+[18Oct2025 16:02:56.813] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.4+mc1.20.1: 96 options available, 0 override(s) found
+[18Oct2025 16:02:56.814] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[18Oct2025 16:02:56.828] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[18Oct2025 16:02:56.964] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Oct2025 16:02:57.008] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Oct2025 16:02:57.082] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[18Oct2025 16:02:57.659] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[18Oct2025 16:02:57.686] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
+[18Oct2025 16:02:57.688] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Oct2025 16:02:57.689] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Oct2025 16:02:57.708] [main/WARN] [mixin/]: Error loading class: com/hollingsworth/arsnouveau/common/items/SpellCrossbow (java.lang.ClassNotFoundException: com.hollingsworth.arsnouveau.common.items.SpellCrossbow)
+[18Oct2025 16:02:58.174] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18Oct2025 16:02:58.732] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (8.091 s after launch)
+[18Oct2025 16:02:58.872] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[18Oct2025 16:02:58.873] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[18Oct2025 16:02:59.085] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[18Oct2025 16:02:59.085] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[18Oct2025 16:02:59.086] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[18Oct2025 16:03:00.240] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[18Oct2025 16:03:01.005] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Oct2025 16:03:01.005] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Oct2025 16:03:01.071] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2335 milliseconds
+[18Oct2025 16:03:01.699] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[18Oct2025 16:03:03.088] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[18Oct2025 16:03:03.447] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[18Oct2025 16:03:03.448] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[18Oct2025 16:03:03.831] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[18Oct2025 16:03:04.249] [modloading-worker-0/INFO] [Ksyxis/MOD_KSYXIS]: Ksyxis: Booting... (platform: Forge/KForge, manual: false)
+[18Oct2025 16:03:04.250] [modloading-worker-0/INFO] [Ksyxis/MOD_KSYXIS]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.5, time: 1 ms)
+[18Oct2025 16:03:04.272] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[18Oct2025 16:03:04.273] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[18Oct2025 16:03:09.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
+[18Oct2025 16:03:09.655] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: AHEAD Current: 0.12.4+git.26c9d8e Target: null
+[18Oct2025 16:03:09.655] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
+[18Oct2025 16:03:09.749] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[18Oct2025 16:03:09.749] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[18Oct2025 16:03:09.749] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[18Oct2025 16:03:09.755] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[18Oct2025 16:03:09.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.13 Target: null
+[18Oct2025 16:03:09.826] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Starting version check at https://raw.githubusercontent.com/VidTu/Ksyxis/main/updater_ksyxis_forge.json
+[18Oct2025 16:03:09.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Found status: UP_TO_DATE Current: 1.3.4 Target: null
+[18Oct2025 16:03:09.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Oct2025 16:03:10.036] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[18Oct2025 16:03:10.213] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[18Oct2025 16:03:10.728] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Oct2025 16:03:10.829] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[18Oct2025 16:03:11.124] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/nj/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23133!/assets/.mcassetsroot' uses unexpected schema
+[18Oct2025 16:03:11.124] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/nj/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23133!/data/.mcassetsroot' uses unexpected schema
+[18Oct2025 16:03:11.881] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[18Oct2025 16:03:12.272] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
+[18Oct2025 16:03:12.992] [Worker-Main-5/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:apotheosis:book
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[18Oct2025 16:03:13.069] [main/INFO] [placebo/]: Registered 34 additional loot tables.
+[18Oct2025 16:03:13.107] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[18Oct2025 16:03:13.132] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[18Oct2025 16:03:13.138] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[18Oct2025 16:03:13.146] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 15 recipes
+[18Oct2025 16:03:13.248] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1645 advancements
+[18Oct2025 16:03:13.255] [main/INFO] [placebo/]: Registered 26 additional recipes.
+[18Oct2025 16:03:13.258] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[18Oct2025 16:03:13.263] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[18Oct2025 16:03:13.300] [main/INFO] [placebo/]: Registered 16 gear_sets.
+[18Oct2025 16:03:13.304] [main/INFO] [Apotheosis : Enchantment/]: Registered 29 enchanting_stats.
+[18Oct2025 16:03:13.306] [main/INFO] [Apotheosis : Adventure/]: Registered 6 rarities.
+[18Oct2025 16:03:13.326] [main/INFO] [Apotheosis : Adventure/]: Registered 81 affixes.
+[18Oct2025 16:03:13.332] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category helmetRequired: 3; Provided: 2
+[18Oct2025 16:03:13.332] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category bootsRequired: 3; Provided: 2
+[18Oct2025 16:03:13.333] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category helmetRequired: 4; Provided: 2
+[18Oct2025 16:03:13.333] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bootsRequired: 4; Provided: 2
+[18Oct2025 16:03:13.334] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bowRequired: 5; Provided: 4
+[18Oct2025 16:03:13.334] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category crossbowRequired: 5; Provided: 4
+[18Oct2025 16:03:13.334] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category pickaxeRequired: 5; Provided: 4
+[18Oct2025 16:03:13.334] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shovelRequired: 5; Provided: 4
+[18Oct2025 16:03:13.334] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shieldRequired: 5; Provided: 4
+[18Oct2025 16:03:13.349] [main/INFO] [Apotheosis : Adventure/]: Registered 19 gems.
+[18Oct2025 16:03:13.360] [main/INFO] [Apotheosis : Adventure/]: Registered 67 affix_loot_entries.
+[18Oct2025 16:03:13.371] [main/INFO] [Apotheosis : Adventure/]: Registered 17 bosses.
+[18Oct2025 16:03:13.379] [main/INFO] [Apotheosis : Adventure/]: Registered 8 rogue_spawners.
+[18Oct2025 16:03:13.383] [main/INFO] [Apotheosis : Adventure/]: Registered 5 minibosses.
+[18Oct2025 16:03:13.390] [main/INFO] [Apotheosis : Village/]: Registered 28 wanderer_trades.
+[18Oct2025 16:03:13.421] [main/WARN] [ModernFix/]: Initial datapack load took 2.278 s
+[18Oct2025 16:03:13.497] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[18Oct2025 16:03:13.497] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18Oct2025 16:03:13.497] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18Oct2025 16:03:13.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Oct2025 16:03:13.588] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18Oct2025 16:03:13.611] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18Oct2025 16:03:13.691] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18Oct2025 16:03:13.692] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18Oct2025 16:03:13.692] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18Oct2025 16:03:13.692] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18Oct2025 16:03:13.796] [Server thread/INFO] [spark/]: Starting background profiler...
+[18Oct2025 16:03:14.682] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18Oct2025 16:03:15.118] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
+[18Oct2025 16:03:15.130] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
+[18Oct2025 16:03:15.137] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
+[18Oct2025 16:03:15.139] [Server thread/INFO] [Ksyxis/MinecraftServerMixin/MOD_KSYXIS]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=m_129940_,CANCELLABLE=false], server: net.minecraft.server.dedicated.DedicatedServer@1c8cbd54)
+[18Oct2025 16:03:15.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Oct2025 16:03:15.144] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[18Oct2025 16:03:15.181] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 42 ms
+[18Oct2025 16:03:15.182] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.478s)! For help, type "help"
+[18Oct2025 16:03:15.330] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18Oct2025 16:03:15.332] [Server thread/WARN] [ModernFix/]: Dedicated server took 24.691 seconds to load
+[18Oct2025 16:05:30.624] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: wite55[/127.66.196.96:42847] logged in with entity id 1 at (3431.763999148082, 45.0, -707.6884340922605)
+[18Oct2025 16:05:30.714] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player wite55
+[18Oct2025 16:05:30.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: wite55 joined the game
+[18Oct2025 16:13:29.798] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3360, y=-54, z=-678} BlockPos{x=3361, y=-53, z=-677}
+[18Oct2025 16:13:30.697] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3359, y=-52, z=-678} BlockPos{x=3361, y=-52, z=-677}
+[18Oct2025 16:14:45.194] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3369, y=-43, z=-681} BlockPos{x=3371, y=-43, z=-681}
+[18Oct2025 16:14:45.244] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3369, y=-43, z=-681} BlockPos{x=3370, y=-45, z=-681}
+[18Oct2025 16:14:46.952] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3373, y=-42, z=-681} BlockPos{x=3376, y=-43, z=-681}
+[18Oct2025 16:14:47.447] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3377, y=-43, z=-681} BlockPos{x=3376, y=-42, z=-681}
+[18Oct2025 16:14:47.498] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3377, y=-43, z=-681} BlockPos{x=3373, y=-44, z=-681}
+[18Oct2025 16:14:47.848] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3374, y=-44, z=-681} BlockPos{x=3375, y=-44, z=-681}
+[18Oct2025 16:17:35.395] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3469, y=-42, z=-692} BlockPos{x=3470, y=-42, z=-693}
+[18Oct2025 16:17:35.451] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3469, y=-42, z=-692} BlockPos{x=3470, y=-42, z=-693}
+[18Oct2025 16:17:35.492] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3469, y=-42, z=-692} BlockPos{x=3470, y=-42, z=-693}
+[18Oct2025 16:17:35.542] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3469, y=-42, z=-692} BlockPos{x=3470, y=-42, z=-693}
+[18Oct2025 16:17:35.594] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3469, y=-42, z=-692} BlockPos{x=3470, y=-42, z=-693}
+[18Oct2025 16:17:35.642] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3469, y=-42, z=-692} BlockPos{x=3470, y=-42, z=-693}
+[18Oct2025 16:18:55.939] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3517, y=-58, z=-747} BlockPos{x=3515, y=-58, z=-747}
+[18Oct2025 16:18:59.489] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3527, y=-58, z=-746} BlockPos{x=3525, y=-58, z=-746}
+[18Oct2025 16:19:05.789] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3548, y=-59, z=-747} BlockPos{x=3548, y=-60, z=-747}
+[18Oct2025 16:19:05.889] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3545, y=-60, z=-747} BlockPos{x=3544, y=-60, z=-747}
+[18Oct2025 16:19:08.041] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3554, y=-58, z=-747} BlockPos{x=3549, y=-60, z=-747}
+[18Oct2025 16:19:08.239] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3550, y=-58, z=-747} BlockPos{x=3552, y=-58, z=-747}
+[18Oct2025 16:19:09.691] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3554, y=-56, z=-747} BlockPos{x=3553, y=-57, z=-747}
+[18Oct2025 16:19:12.089] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3549, y=-58, z=-743} BlockPos{x=3548, y=-60, z=-746}
+[18Oct2025 16:25:13.881] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3703, y=117, z=-838} BlockPos{x=3706, y=119, z=-836}
+[18Oct2025 16:26:42.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: wite55 did not like the sun
+[18Oct2025 16:27:45.688] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 1'/8277, l='ServerLevel[world]', x=3372.50, y=82.00, z=-645.25] died: Vampire Baron Level 1 was slain by Vampire Baron Level 2
+[18Oct2025 16:31:39.886] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 2'/8923, l='ServerLevel[world]', x=3360.06, y=80.00, z=-701.83] died: Vampire Baron Level 2 was slain by Vampire Baron Level 2
+[18Oct2025 16:34:46.285] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RamiroGp2212[/127.66.196.96:57415] logged in with entity id 9295 at (3422.608958163022, 46.875, -703.911058575535)
+[18Oct2025 16:34:46.300] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player RamiroGp2212
+[18Oct2025 16:34:46.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RamiroGp2212 joined the game
+[18Oct2025 16:35:32.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> metete al dc
+[18Oct2025 16:37:19.687] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 4'/9612, l='ServerLevel[world]', x=3404.69, y=72.00, z=-778.51] died: Vampire Baron Level 4 was slain by Vampire Baron Level 4
+[18Oct2025 16:37:36.143] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 3'/9690, l='ServerLevel[world]', x=3341.52, y=73.00, z=-741.66] died: Vampire Baron Level 3 was slain by Vampire Baron Level 4
+[18Oct2025 16:37:57.338] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 4'/9614, l='ServerLevel[world]', x=3421.83, y=72.00, z=-775.30] died: Vampire Baron Level 4 was slain by Vampire
+[18Oct2025 16:38:05.642] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 3'/9613, l='ServerLevel[world]', x=3434.70, y=72.00, z=-773.08] died: Vampire Baron Level 3 was slain by Vampire
+[18Oct2025 16:38:22.388] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 3'/9482, l='ServerLevel[world]', x=3329.59, y=63.00, z=-776.30] died: Vampire Baron Level 3 was slain by wite55
+[18Oct2025 16:38:26.535] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 4'/9411, l='ServerLevel[world]', x=3376.28, y=82.00, z=-727.30] died: RamiroGp2212 scorched Vampire Baron Level 4
+[18Oct2025 16:38:33.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: After wite55 was slain by Vampire, they gave up
+[18Oct2025 16:38:47.143] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 4'/9843, l='ServerLevel[world]', x=3372.21, y=79.00, z=-721.89] died: Vampire Baron Level 4 was slain by RamiroGp2212
+[18Oct2025 16:40:14.385] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 3'/10095, l='ServerLevel[world]', x=3410.70, y=88.00, z=-711.41] died: wite55 scorched Vampire Baron Level 3
+[18Oct2025 16:40:35.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: After wite55 was slain by Vampire, they gave up
+[18Oct2025 16:41:56.785] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Honeyed Archer'/9062, l='ServerLevel[world]', x=3544.47, y=109.33, z=-705.67] died: Honeyed Archer suffocated in a wall
+[18Oct2025 16:45:33.736] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: wite55 lost connection: Disconnected
+[18Oct2025 16:45:33.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: wite55 left the game
+[18Oct2025 16:45:33.787] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[18Oct2025 16:45:43.802] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: wite55[/127.66.196.96:37625] logged in with entity id 11878 at (3421.59495353595, 45.0, -705.1303080224445)
+[18Oct2025 16:45:43.814] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player wite55
+[18Oct2025 16:45:43.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: wite55 joined the game
+[18Oct2025 16:49:14.038] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: wite55 lost connection: Timed out
+[18Oct2025 16:49:14.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: wite55 left the game
+[18Oct2025 16:51:37.348] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: wite55[/127.66.196.96:40755] logged in with entity id 13052 at (3428.9490853906773, 45.0, -695.7174086330934)
+[18Oct2025 16:51:37.360] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player wite55
+[18Oct2025 16:51:37.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: wite55 joined the game
+[18Oct2025 16:52:22.386] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 1'/13724, l='ServerLevel[world]', x=3418.17, y=88.00, z=-730.46] died: Vampire Baron Level 1 was slain by Vampire Baron Level 5
+[18Oct2025 16:52:31.535] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 3'/13721, l='ServerLevel[world]', x=3415.14, y=88.00, z=-729.66] died: Vampire Baron Level 3 was slain by Vampire Baron Level 5
+[18Oct2025 16:52:59.976] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Vice-Chancellor Verere the Shimmering'/14096, l='ServerLevel[world]', x=-176.48, y=103.00, z=-573.88] died: Vice-Chancellor Verere the Shimmering was slain by RamiroGp2212
+[18Oct2025 16:55:33.439] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager AggressiveVillagerEntity['Angry Villager'/15467, l='ServerLevel[world]', x=-292.49, y=62.94, z=-947.34] died, message: 'Angry Villager was slain by Vampire'
+[18Oct2025 16:58:39.989] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 3'/18321, l='ServerLevel[world]', x=3373.24, y=87.00, z=-645.69] died: Vampire Baron Level 3 was slain by Vampire
+[18Oct2025 16:59:29.939] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 3'/18719, l='ServerLevel[world]', x=3338.86, y=68.00, z=-769.39] died: Vampire Baron Level 3 was slain by Vampire Baron Level 3
+[18Oct2025 17:03:25.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> me das 4 coras
+[18Oct2025 17:04:15.792] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
+[18Oct2025 17:05:42.322] [Worker-Main-45/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [6 above bottom--1 absolute]
+[18Oct2025 17:05:42.322] [Worker-Main-45/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [6 above bottom--1 absolute]
+[18Oct2025 17:05:42.323] [Worker-Main-45/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [6 above bottom--1 absolute]
+[18Oct2025 17:06:37.255] [Worker-Main-62/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/21013, l='ServerLevel[world]', x=629.00, y=31.00, z=-300.00] as it would cause deadlock
+[18Oct2025 17:06:40.308] [Worker-Main-63/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/21039, l='ServerLevel[world]', x=980.00, y=31.00, z=-143.00] as it would cause deadlock
+[18Oct2025 17:06:54.072] [Worker-Main-32/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/21179, l='ServerLevel[world]', x=1124.00, y=31.00, z=-269.00] as it would cause deadlock
+[18Oct2025 17:07:01.675] [Worker-Main-63/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/21290, l='ServerLevel[world]', x=1204.00, y=31.00, z=-60.00] as it would cause deadlock
+[18Oct2025 17:07:09.251] [Worker-Main-45/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/21410, l='ServerLevel[world]', x=1283.00, y=31.00, z=25.00] as it would cause deadlock
+[18Oct2025 17:07:28.399] [Worker-Main-61/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/21715, l='ServerLevel[world]', x=1463.00, y=31.00, z=-225.00] as it would cause deadlock
+[18Oct2025 17:07:28.867] [Worker-Main-45/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/21725, l='ServerLevel[world]', x=1457.00, y=31.00, z=-102.00] as it would cause deadlock
+[18Oct2025 17:08:21.284] [Worker-Main-63/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/22163, l='ServerLevel[world]', x=1540.00, y=31.00, z=127.00] as it would cause deadlock
+[18Oct2025 17:08:41.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> quieres diamantes?
+[18Oct2025 17:08:55.017] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombifiedPiglin['Vince the Ghost Hunter'/22171, l='ServerLevel[world]', x=1338.62, y=91.00, z=92.30] died: Vince the Ghost Hunter was slain by RamiroGp2212
+[18Oct2025 17:09:09.645] [Worker-Main-61/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/22493, l='ServerLevel[world]', x=1410.00, y=31.00, z=296.00] as it would cause deadlock
+[18Oct2025 17:09:18.449] [Worker-Main-63/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/22601, l='ServerLevel[world]', x=1627.00, y=31.00, z=-36.00] as it would cause deadlock
+[18Oct2025 17:09:18.969] [Worker-Main-63/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/22611, l='ServerLevel[world]', x=1258.00, y=31.00, z=335.00] as it would cause deadlock
+[18Oct2025 17:09:22.949] [Worker-Main-32/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/22639, l='ServerLevel[world]', x=1291.00, y=31.00, z=347.00] as it would cause deadlock
+[18Oct2025 17:09:24.708] [Worker-Main-61/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/22666, l='ServerLevel[world]', x=1679.00, y=31.00, z=-12.00] as it would cause deadlock
+[18Oct2025 17:09:24.769] [Worker-Main-63/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/22670, l='ServerLevel[world]', x=1674.00, y=31.00, z=-37.00] as it would cause deadlock
+[18Oct2025 17:09:24.770] [Worker-Main-63/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/22673, l='ServerLevel[world]', x=1671.00, y=31.00, z=-33.00] as it would cause deadlock
+[18Oct2025 17:10:40.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> como se crea los lingote de sangre
+[18Oct2025 17:12:23.736] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 4'/23094, l='ServerLevel[world]', x=3408.10, y=77.00, z=-767.30] died: Vampire Baron Level 4 was slain by Vampire Baron Level 5
+[18Oct2025 17:12:55.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RamiroGp2212 has made the advancement [The Secrets of Enchanting]
+[18Oct2025 17:19:39.688] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 5'/24279, l='ServerLevel[world]', x=3439.63, y=80.00, z=-751.54] died: Vampire Baron Level 5 was slain by Vampire Baron Level 5
+[18Oct2025 17:20:29.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> man a vos te dieron spawner de aldeanos ponelo asi recuperamos el aldeano y sacamos coras
+[18Oct2025 17:20:40.141] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 4'/24801, l='ServerLevel[world]', x=3338.37, y=62.54, z=-760.45] died: Vampire Baron Level 4 was slain by Vampire
+[18Oct2025 17:26:35.036] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 4'/27540, l='ServerLevel[world]', x=3382.69, y=80.00, z=-745.49] died: Vampire Baron Level 4 was slain by Vampire Baron Level 4
+[18Oct2025 17:27:34.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <RamiroGp2212> madera
+[18Oct2025 17:27:51.062] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 1'/27578, l='ServerLevel[world]', x=3354.53, y=72.95, z=-584.67] died: Vampire Baron Level 1 was slain by wite55
+[18Oct2025 17:28:11.287] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 4'/28174, l='ServerLevel[world]', x=3427.56, y=89.00, z=-666.99] died: Vampire Baron Level 4 was slain by Vampire Baron Level 5
+[18Oct2025 17:30:27.112] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 1'/28465, l='ServerLevel[world]', x=3386.37, y=79.00, z=-754.00] died: Vampire Baron Level 1 was slain by wite55
+[18Oct2025 17:32:18.248] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager ConvertedVillagerEntity['Fletcher'/26869, l='ServerLevel[world]', x=3435.94, y=45.00, z=-708.37] died, message: 'Fletcher was slain by RamiroGp2212 using [Elusive Sucking it to a Vampire of the Sunderer]'
+[18Oct2025 17:33:24.235] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 5'/29049, l='ServerLevel[world]', x=3366.45, y=79.00, z=-723.57] died: Vampire Baron Level 5 was slain by Vampire Baron Level 5
+[18Oct2025 17:34:19.300] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Eliza the Doominator'/29750, l='ServerLevel[world]', x=3407.56, y=71.00, z=-790.48] died: Eliza the Doominator was slain by RamiroGp2212 using [Elusive Sucking it to a Vampire of the Sunderer]
+[18Oct2025 17:34:35.096] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 5'/29502, l='ServerLevel[world]', x=3437.54, y=72.00, z=-783.65] died: Vampire Baron Level 5 was slain by RamiroGp2212 using [Elusive Sucking it to a Vampire of the Sunderer]
+[18Oct2025 17:34:36.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> ya tgienes al aldeano
+[18Oct2025 17:35:43.488] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 4'/30097, l='ServerLevel[world]', x=3295.70, y=71.00, z=-621.30] died: Vampire Baron Level 4 was slain by Vampire Baron Level 5
+[18Oct2025 17:36:33.844] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 5'/30209, l='ServerLevel[world]', x=3400.70, y=89.00, z=-691.30] died: Vampire Baron Level 5 was slain by RamiroGp2212 using [Elusive Sucking it to a Vampire of the Sunderer]
+[18Oct2025 17:37:03.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> ya entrene la espada ahora q
+[18Oct2025 17:37:22.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: After wite55 was slain by Vampire Baron Level 4, they gave up
+[18Oct2025 17:38:21.542] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 5'/30664, l='ServerLevel[world]', x=3365.35, y=82.00, z=-618.50] died: Vampire Baron Level 5 was slain by RamiroGp2212 using [Elusive Sucking it to a Vampire of the Sunderer]
+[18Oct2025 17:39:02.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <RamiroGp2212> t
+[18Oct2025 17:41:28.351] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zoglin['Mike the Ogre Slayer'/32655, l='ServerLevel[world]', x=431.71, y=46.00, z=8.13] died: Mike the Ogre Slayer was slain by RamiroGp2212 using [Elusive Sucking it to a Vampire of the Sunderer]
+[18Oct2025 17:50:25.846] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Piglin['Chancellor Gregory the Dirt Digger'/40289, l='ServerLevel[world]', x=439.13, y=54.00, z=152.94] died: Chancellor Gregory the Dirt Digger was slain by RamiroGp2212 using [Elusive Sucking it to a Vampire of the Sunderer]
+[18Oct2025 17:53:06.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: wite55 was slain by Vampire Hunter
+[18Oct2025 17:59:45.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: wite55 has made the advancement [What a Deal!]
+[18Oct2025 18:00:53.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: After RamiroGp2212 scorched wite55, they gave up
+[18Oct2025 18:01:06.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> ayudame a poner mi espada igual de rota
+[18Oct2025 18:01:21.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> ya esta full entyrenada
+[18Oct2025 18:01:28.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <RamiroGp2212> encantala nigga
+[18Oct2025 18:01:37.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> onde
+[18Oct2025 18:01:43.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <RamiroGp2212> aun no
+[18Oct2025 18:01:53.833] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 3'/51957, l='ServerLevel[world]', x=3412.10, y=86.00, z=-745.30] died: Vampire Baron Level 3 was slain by RamiroGp2212 using [Elusive Sucking it to a Vampire of the Sunderer]
+[18Oct2025 18:01:54.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> veni mira esto
+[18Oct2025 18:05:39.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <RamiroGp2212> XDDD
+[18Oct2025 18:06:03.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> como corres tanto
+[18Oct2025 18:06:26.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: After RamiroGp2212 scorched wite55, they gave up
+[18Oct2025 18:11:28.714] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Honeyed Archer'/55513, l='ServerLevel[world]', x=-347.47, y=127.85, z=-37.42] died: Honeyed Archer was slain by RamiroGp2212 using [Elusive Sucking it to a Vampire of the Sunderer]
+[18Oct2025 18:12:49.218] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RamiroGp2212 moved wrongly!
+[18Oct2025 18:13:28.646] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 4'/56947, l='ServerLevel[world]', x=3380.06, y=80.00, z=-737.06] died: Vampire Baron Level 4 was slain by wite55
+[18Oct2025 18:15:13.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: wite55 has reached the goal [As Bloody as it Gets]
+[18Oct2025 18:18:05.711] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vindicator['Feddie the Pyromancer'/61577, l='ServerLevel[world]', x=-621.99, y=76.00, z=1658.29] died: Feddie the Pyromancer was slain by RamiroGp2212 using [Elusive Sucking it to a Vampire of the Sunderer]
+[18Oct2025 18:21:56.770] [Worker-Main-32/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=271, y=77, z=271}
+[18Oct2025 18:24:19.740] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VampireBaronEntity['Vampire Baron Level 5'/63672, l='ServerLevel[world]', x=3398.43, y=90.02, z=-677.84] died: Vampire Baron Level 5 was slain by wite55
+[18Oct2025 18:25:19.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> donde ta el end?????
+[18Oct2025 18:26:50.297] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[18Oct2025 18:26:50.297] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[18Oct2025 18:26:50.298] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[18Oct2025 18:26:50.298] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[18Oct2025 18:26:50.298] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[18Oct2025 18:26:50.298] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[18Oct2025 18:26:50.298] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[18Oct2025 18:26:50.298] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[18Oct2025 18:26:50.298] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[18Oct2025 18:27:11.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <wite55> ?????????
+[18Oct2025 18:27:59.513] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=16, y=-59, z=-17}
+[18Oct2025 18:27:59.514] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=16, y=-58, z=-12}
+[18Oct2025 18:27:59.514] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=16, y=-58, z=-15}
+[18Oct2025 18:27:59.514] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=19, y=-59, z=-10}
+[18Oct2025 18:27:59.527] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=15, y=-59, z=36}
+[18Oct2025 18:28:03.804] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=15, y=-57, z=7}
+[18Oct2025 18:28:03.805] [Worker-Main-62/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=23, y=-37, z=8}
+[18Oct2025 18:29:37.394] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: wite55 lost connection: Disconnected
+[18Oct2025 18:29:37.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: wite55 left the game
+[18Oct2025 18:32:15.800] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RamiroGp2212 moved wrongly!
+[18Oct2025 18:33:12.543] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Sir Henderson the Funky'/71810, l='ServerLevel[world]', x=470.07, y=35.00, z=-49.49] died: Sir Henderson the Funky was slain by RamiroGp2212 using [Elusive Sucking it to a Vampire of the Sunderer]
+[18Oct2025 18:35:19.287] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RamiroGp2212 lost connection: Disconnected
+[18Oct2025 18:35:19.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RamiroGp2212 left the game
+[18Oct2025 18:35:52.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18Oct2025 18:35:52.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18Oct2025 18:35:52.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18Oct2025 18:35:52.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18Oct2025 18:35:52.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18Oct2025 18:35:52.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18Oct2025 18:35:52.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18Oct2025 18:35:52.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Oct2025 18:35:52.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Oct2025 18:35:52.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
